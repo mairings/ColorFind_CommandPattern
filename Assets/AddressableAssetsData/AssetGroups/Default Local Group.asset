@@ -21,8 +21,8 @@ MonoBehaviour:
     m_Address: ColorChangeData
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: e9a43818c40fb1e40b328828e515544f
-    m_Address: Assets/Resources_moved
+  - m_GUID: 45f1f190373f6fd42978323abf0f2270
+    m_Address: Assets/Resources
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0

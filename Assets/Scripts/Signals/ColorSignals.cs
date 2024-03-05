@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 using Keys;
+using System;
 
 namespace Signals
 {
@@ -18,7 +19,8 @@ namespace Signals
             Instance = this;
         }
 
-        //public UnityAction onColorCalculateEuclideanDistance = delegate { };
+        public UnityAction onGenerateRandomColor = delegate { };
+        public Func<float> onCalculateEuclideanDistance = delegate { return 0; }; 
 
     }
 }
